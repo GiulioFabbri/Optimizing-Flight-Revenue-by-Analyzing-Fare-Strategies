@@ -29,14 +29,14 @@ https://www.statista.com/statistics/1126148/ryanair-passenger-load-factor/#:~:te
 Su Excel possiamo plottare l'andamento delle fares e del load factor across time till departure, confronting our fares to the competition ones.
 Da questo grafico possiamo dedurre che tipo di volo erano e la strategia adottata
 
-FR101: The fares model could be too sensitive to Load Factor, starting to increase fares as soon as there is a Lf increase (27 dbd) even if we are only at 10% of LF, not increasing prices immediately could have avoided these cycles leading to higher LF.
+- FR101: The fares model could be too sensitive to Load Factor, starting to increase fares as soon as there is a Lf increase (27 dbd) even if we are only at 10% of LF, not increasing prices immediately could have avoided these cycles leading to higher LF.
 We can see that there is amrgin with the competition fares  and infact we have to evaluate if is it possible to icnrease them even with low LF (relationship Fares-LF in this flight could be  weak)
 
-FR102: The fare model is too indifferent to LF, taking the opposite approach. Fares are lowered to boost LF, leading to a sharp increase only in the week before departure. In the middle section we could have higher fares. (How to estimate loss)
+- FR102: The fare model is too indifferent to LF, taking the opposite approach. Fares are lowered to boost LF, leading to a sharp increase only in the week before departure. In the middle section we could have higher fares. (How to estimate loss)
  
-FR103:Is the only flight in which fares are lowered at the end, we have to remember that LF started alreadya t 60% ,We might have achieved better results by keeping prices higher especially at the end.
+- FR103:Is the only flight in which fares are lowered at the end, we have to remember that LF started alreadya t 60% ,We might have achieved better results by keeping prices higher especially at the end.
  
-FR104: Fares adjustments seem correct; the spike creates a plateau. However, the drop in the last week, as we’ll see, could have been avoided (60% decrease in fares that then icnrease again just for getting one more customer)
+- FR104: Fares adjustments seem correct; the spike creates a plateau. However, the drop in the last week, as we’ll see, could have been avoided (60% decrease in fares that then increase again just for getting one more customer)
 
 
 ![image](https://github.com/user-attachments/assets/f0238318-f0cf-40ff-9c66-78fd3fba5901)
