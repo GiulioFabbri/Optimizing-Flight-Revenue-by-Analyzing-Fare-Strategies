@@ -6,16 +6,15 @@ We consider factors such as fares, revenues, competition fares, and load factors
 
 
 
-1. Flights performance at departure date
+## 1. Flights performance at departure date  
 
-Creating pivot tables and visualizing with excel we can see at departure date that
+Creating pivot tables and visualizing with excel we can see at departure date that:
 
 - Flight FR101 contributes the least on revenue (5%) and it also has the lowest Load Factor (plane only half full) 
 - Flight FR102 ranks third in revenue generation at 20%, yet it boasts the highest load factor at 104%, surpassing full capacity
 - Flight FR103 generates the highest revenue, accounting for almost 50%, while ranking third in load factor.
 - Flight FR104 ranks second in both load factor and revenue
 
-![image](https://github.com/user-attachments/assets/9005a2d8-1a2e-4a26-96d9-eab08855abda)
 
 ![image](https://github.com/user-attachments/assets/13e78599-7354-4d31-858f-0310d10fc3d0)
 
@@ -26,7 +25,7 @@ https://www.statista.com/statistics/1126148/ryanair-passenger-load-factor/#:~:te
 
 
 
-3. Overview of Pricing Strategies Adopted
+## 3. Overview of Pricing Strategies Adopted
 Su Excel possiamo plottare l'andamento delle fares e del load factor across time till departure, confronting our fares to the competition ones.
 Da questo grafico possiamo dedurre che tipo di volo erano e la strategia adottata
 
