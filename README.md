@@ -1,4 +1,4 @@
-# Flights Revenue and Load Factor Analysis
+# Optimizing Flight Revenue by Analyzing Fare Strategies
 Since I have taken many flights in my life to Dublin, in this project, we aim to analyse the revenue performance of 4 flights from Dublin compared to the competition.
 
 We consider factors such as fares, revenues, competition fares, and load factors (how full the plane is) over time until departure.
