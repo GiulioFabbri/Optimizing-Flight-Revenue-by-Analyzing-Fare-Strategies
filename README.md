@@ -49,20 +49,19 @@ When could we have raised fares?
 - If we have margin with respect to competition fares
 - If we have strong seasonality (ex.Sunday)
 
-Besides the elasticity calculated in Excel, we also need a more statistical analysis performed in RStudio on the:
+Besides the elasticity calculated in Excel, we also need to check if fares have an effect on the number of daily bookings and if fares affect revenues.   
+We can expect that increasing fares may reduce bookings, but raising fares could also lead customers to spend less on secondary services, potentially reducing revenues.   
+For doing the regressions we will use Rstudio.
 
 1. **The Fares’ effect on number of daily bookings**:     
-  Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday  
-
-  In this case we do not have significant effect of fares on number of bookings   
+  Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday   
+  (Here Fares have no significant effect on bookings) 
 
 ![image](https://github.com/user-attachments/assets/581d260f-3220-48d5-9833-24da7d9a27ac)
 
 2. **The Fares’ effect on daily Revenues**:
- Higher fares could reduce secondary revenues like additional baggage purchases   
- Daily Revenues=β Fare + β DUD + β Weekday
-
- In this case we have that increasing fares increase revenues only for flight 101 e 102   
+ Daily Revenues=β Fare + β DUD + β Weekday    
+ (Here ifares have positive significant effect only for flight 101 e 102)
   
 ![image](https://github.com/user-attachments/assets/44be63f5-ee9e-4e90-bdaf-8fba211facc0)
 
