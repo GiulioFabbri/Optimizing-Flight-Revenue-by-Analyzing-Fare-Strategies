@@ -45,23 +45,23 @@ We can see that there is amrgin with the competition fares  and infact we have t
 ## 4. Possible Improvement strategy
 
 When could we have raised fares? 
-- If customers are indifferent to fares changes (Elasticity of the prices around 0 or positive)
+- If customers are indifferent to fares changes (**Elasticity** of the prices around 0 or positive)
 - If we have margin with respect to competition fares
 - If we have strong seasonality (ex.Sunday)
 
-Oltre all' elasticità calcolata in Excel abbiamo bisogno anche di un'analisi piu statistica performata su Rstudio,
-per vedere se l'effetto
+Besides the elasticity calculated in Excel, we also need a more statistical analysis performed in RStudio on the:
 
-1.The Fares’ effect on number of daily bookings:     
+1. **The Fares’ effect on number of daily bookings**:     
   Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday  
 
   In this case we do not have significant effect of fares on number of bookings   
 
 ![image](https://github.com/user-attachments/assets/581d260f-3220-48d5-9833-24da7d9a27ac)
 
-2.The Fares’ effect on daily Revenues:
+2. **The Fares’ effect on daily Revenues**:
  Higher fares could reduce secondary revenues like additional baggage purchases   
- Daily Revenues=β Fare + β DUD + β Weekday   
+ Daily Revenues=β Fare + β DUD + β Weekday
+
  In this case we have that increasing fares increase revenues only for flight 101 e 102   
   
 ![image](https://github.com/user-attachments/assets/44be63f5-ee9e-4e90-bdaf-8fba211facc0)
