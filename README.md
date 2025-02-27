@@ -70,37 +70,37 @@ Therefore in Rstudio we estimate the regressions parameters for:
 **4. Conclusions!**
 
 **Flight FR101**:
-•	LF too low
-•	Elasticity strong variation, no seasonality
-•	High margins with competition
+•	LF too lowc   
+•	Elasticity strong variation, no seasonality   
+•	High margins with competition    
 
-LF is very low and lowering fares should not lead to an increase in bookings.  
+LF is very low and lowering fares should not lead to an increase in bookings.    
 Increasing fares could increase revenues without lowering LF but this flight has an high risk to create a financial loss.
 
 
-**Flight FR102**:
-•	LF too high
-•	Scarse Elasticity
-•	Significant week seasonality
-•	High margins with competition in the middle of the period
+**Flight FR102**:   
+•	LF too high   
+•	Scarse Elasticity   
+•	Significant week seasonality   
+•	High margins with competition in the middle of the period   
 
 Fares should have been increased during the middle period, taking into account the weekdays with higher demand.   
-This adjustment would have helped manage the hogh demand level, but scarce elasticity must be kept in mind
+This adjustment would have helped manage the hogh demand level, but scarce elasticity must be kept in mind   
 
       
-**Flight FR103**:
-•	Good LF performance
-•	Scarce elasticity
-•	Margins with competition fares  at the end
-We should study whether the LF at 60% already at the beginning is recurring, if so prices could be increased especially at the end.
+**Flight FR103**:   
+•	Good LF performance   
+•	Scarce elasticity   
+•	Margins with competition fares  at the end   
+We should study whether the LF at 60% already at the beginning is recurring, if so prices could be increased especially at the end.   
 
 
 **Flight FR104**:
-• Good LF performance
-• Scarce eleasticity
-• Scarce margin with competition
-Efficiency is good, but the final drop in fares could have been avoided. Only one additional booking was gained from a 60% fare reduction,   
-before fares were subsequently increased again.
+• Good LF performance   
+• Scarce eleasticity   
+• Scarce margin with competition   
+Efficiency is good, but the final drop in fares could have been avoided. Only one additional booking was gained from a 60% fare reduction,     
+before fares were subsequently increased again.   
 
 
 
