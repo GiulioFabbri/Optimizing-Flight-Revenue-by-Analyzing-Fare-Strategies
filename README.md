@@ -1,5 +1,5 @@
 # Flights Revenue and Load Factor Analysis
-Since I’ve taken many flights in my life to Dublin, in this project, we aim to analyze the revenue performance of 4 flights from Dublin compared to the competition.
+Since I have taken many flights in my life to Dublin, in this project, we aim to analyse the revenue performance of 4 flights from Dublin compared to the competition.
 
 We consider factors such as fares, revenues, competition fares, and load factors (how full the plane is) over time until departure.
 
@@ -10,7 +10,7 @@ We consider factors such as fares, revenues, competition fares, and load factors
 
 Creating pivot tables and visualizing with excel we can see at departure date that:
 
-- Flight FR101 contributes the least on revenue (5%) and it also has the lowest Load Factor (plane only half full) 
+- Flight FR101 contributes the least on revenue (5%), and it also has the lowest Load Factor (plane only half full) 
 - Flight FR102 ranks third in revenue generation at 20%, yet it boasts the highest load factor at 104%, surpassing full capacity
 - Flight FR103 generates the highest revenue, accounting for almost 50%, while ranking third in load factor.
 - Flight FR104 ranks second in both load factor and revenue
@@ -26,17 +26,16 @@ https://www.statista.com/statistics/1126148/ryanair-passenger-load-factor/#:~:te
 
 
 ## 3. Overview of Pricing Strategies Adopted
-Su Excel possiamo plottare l'andamento delle fares e del load factor across time till departure, confronting our fares to the competition ones.
-Da questo grafico possiamo dedurre che tipo di volo erano e la strategia adottata
-
-- FR101: The fares model could be too sensitive to Load Factor, starting to increase fares as soon as there is a Lf increase (27 dbd) even if we are only at 10% of LF, not increasing prices immediately could have avoided these cycles leading to higher LF.
-We can see that there is amrgin with the competition fares  and infact we have to evaluate if is it possible to icnrease them even with low LF (relationship Fares-LF in this flight could be  weak)
+In Excel, we can plot the trend of fares and load factor over time until departure, comparing our fares to those of the competition.
+From these charts, we can infer the type of flight and the strategy adopted.
+- FR101: The fares model could be too sensitive to Load Factor, starting to increase fares as soon as there is a LF increase (27 days before departure) even if we are only at 10% of LF, not increasing prices immediately could have avoided these cycles leading to higher LF.
+We can see that there is margin with the competition fares  and indeed we must evaluate if is it possible to increase them even with low LF (relationship Fares-LF in this flight could be  weak)
 
 - FR102: The fare model is too indifferent to LF, taking the opposite approach. Fares are lowered to boost LF, leading to a sharp increase only in the week before departure. In the middle section we could have higher fares. (How to estimate loss)
  
-- FR103:Is the only flight in which fares are lowered at the end, we have to remember that LF started alreadya t 60% ,We might have achieved better results by keeping prices higher especially at the end.
+- FR103:Is the only flight in which fares are lowered at the end, we must remember that LF started already t 60% ,We might have achieved better results by keeping prices higher especially at the end.
  
-- FR104: Fares adjustments seem correct; the spike creates a plateau. However, the drop in the last week, as we’ll see, could have been avoided (60% decrease in fares that then increase again just for getting one more customer)
+- FR104: Fares adjustments seem correct; the spike creates a plateau. However, the drop in the last week, as we will see, could have been avoided (60% decrease in fares that then increase again just for getting one more customer)
 
 
 ![image](https://github.com/user-attachments/assets/f0238318-f0cf-40ff-9c66-78fd3fba5901)
@@ -45,15 +44,15 @@ We can see that there is amrgin with the competition fares  and infact we have t
 ## 4. Possible Improvement strategy
 
 When could we have raised fares? 
-- If customers are indifferent to fares changes (**Elasticity** of the prices around 0 or positive)
+- If customers are indifferent to fares changes (**Elasticity** of the prices around zero or positive)
 - If we have margin with respect to competition fares
-- If we have strong seasonality (ex.Sunday)
+- If we have strong seasonality (ex. Sunday)
 
-Besides the elasticity calculated in Excel, we also need to check if fares have an effect on the number of daily bookings and if fares affect revenues.   
+Besides the elasticity calculated in Excel, we also need to check if fares influence the number of daily bookings and if fares affect revenues. 
 
 We can expect that increasing fares may reduce bookings, but raising fares could also lead customers to spend less on secondary services, potentially reducing revenues. 
 
-Therefore in Rstudio we estimate the regressions parameters for:   
+Therefore, in RStudio we estimate the regressions parameters for:   
 
 1. **The Fares’ effect on number of daily bookings**:     
   Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday   
@@ -63,44 +62,44 @@ Therefore in Rstudio we estimate the regressions parameters for:
 
 2. **The Fares’ effect on daily Revenues**:
  Daily Revenues=β Fare + β DUD + β Weekday    
- (Here ifares have positive significant effect only for flight 101 e 102)
+ (Here fares have positive significant effect only for flight 101 e 102)
   
 ![image](https://github.com/user-attachments/assets/44be63f5-ee9e-4e90-bdaf-8fba211facc0)
 
 **4. Conclusions!**
 
 **Flight FR101**:
-•	LF too lowc   
+•	LF too low   
 •	Elasticity strong variation, no seasonality   
 •	High margins with competition    
 
-LF is very low and lowering fares should not lead to an increase in bookings.    
-Increasing fares could increase revenues without lowering LF but this flight has an high risk to create a financial loss.
+LF is exceptionally low, and lowering fares should not lead to an increase in bookings. 
+Increasing fares could increase revenues without lowering LF but this flight has an elevated risk to create a monetary loss.
 
 
 **Flight FR102**:   
 •	LF too high   
-•	Scarse Elasticity   
+•	Scarce Elasticity   
 •	Significant week seasonality   
 •	High margins with competition in the middle of the period   
 
-Fares should have been increased during the middle period, taking into account the weekdays with higher demand.   
-This adjustment would have helped manage the hogh demand level, but scarce elasticity must be kept in mind   
+Fares should have been increased during the middle period, considering the weekdays with higher demand. 
+This adjustment would have helped manage the high demand level, but scarce elasticity must be kept in mind   
 
       
 **Flight FR103**:   
 •	Good LF performance   
 •	Scarce elasticity   
 •	Margins with competition fares  at the end   
-We should study whether the LF at 60% already at the beginning is recurring, if so prices could be increased especially at the end.   
+We should study whether the LF at 60% already at the beginning is recurring, if so, prices could be increased especially at the end. 
 
 
 **Flight FR104**:
 • Good LF performance   
-• Scarce eleasticity   
+• Scarce elasticity   
 • Scarce margin with competition   
 Efficiency is good, but the final drop in fares could have been avoided. Only one additional booking was gained from a 60% fare reduction,     
-before fares were subsequently increased again.   
+before fares were subsequently increased again. 
 
 
 
