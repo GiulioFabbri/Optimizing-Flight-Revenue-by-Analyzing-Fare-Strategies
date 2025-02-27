@@ -6,6 +6,13 @@ We will considering factors such as fares, revenues, competition fares, and load
 
 
 1. Flights performance at departure date
+![image](https://github.com/user-attachments/assets/13e78599-7354-4d31-858f-0310d10fc3d0)
+
+
+
+
+
+
 2. Overview of Pricing Strategies Adopted
 3. Possible Improvement strategy
 4. Conclusions!
