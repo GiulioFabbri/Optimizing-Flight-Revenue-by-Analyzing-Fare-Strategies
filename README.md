@@ -42,22 +42,35 @@ FR104: Fares adjustments seem correct; the spike creates a plateau. However, the
 ![image](https://github.com/user-attachments/assets/f0238318-f0cf-40ff-9c66-78fd3fba5901)
 
 
-4. Possible Improvement strategy
+## 4. Possible Improvement strategy
 
 When could we have raised fares? 
-If customers are indifferent to fares changes (Elasticity of the prices around 0 or positive)
-If we have margin with respect to competition fares
-If we have strong seasonality (ex.Sunday)
+- If customers are indifferent to fares changes (Elasticity of the prices around 0 or positive)
+- If we have margin with respect to competition fares
+- If we have strong seasonality (ex.Sunday)
 
-What we estimated from the data:
-Fares-Daily booking demand Elasticity
-The Fares’ effect on number of daily bookings
+Oltre all' elasticità calcolata in Excel abbiamo bisogno anche di un'analisi piu statistica performata su Rstudio,
+per vedere se l'effetto
 
+- The Fares’ effect on number of daily bookings
+  Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday 
 
-The Fares’ effect on daily Revenues:
+![image](https://github.com/user-attachments/assets/581d260f-3220-48d5-9833-24da7d9a27ac)
+
+- The Fares’ effect on daily Revenues:
       If we can increase fares without reducing bookings we still have to check if this reduces revenues
       (higher fares could reduce secondary revenues like additional baggage purchases)
+Daily Revenues=βFare+βDUD+βWeekday
+![image](https://github.com/user-attachments/assets/44be63f5-ee9e-4e90-bdaf-8fba211facc0)
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/993c54d7-c928-4fe7-a39e-80ba823a3f22)
+
+
+
 
 6. Conclusions!
