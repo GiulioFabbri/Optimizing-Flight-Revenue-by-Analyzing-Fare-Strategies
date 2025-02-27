@@ -50,8 +50,10 @@ When could we have raised fares?
 - If we have strong seasonality (ex.Sunday)
 
 Besides the elasticity calculated in Excel, we also need to check if fares have an effect on the number of daily bookings and if fares affect revenues.   
-We can expect that increasing fares may reduce bookings, but raising fares could also lead customers to spend less on secondary services, potentially reducing revenues.   
-For doing the regressions we will use Rstudio.
+
+We can expect that increasing fares may reduce bookings, but raising fares could also lead customers to spend less on secondary services, potentially reducing revenues. 
+
+Therefore in Rstudio we estimate the regressions parameters for:   
 
 1. **The Fares’ effect on number of daily bookings**:     
   Daily Bookings Number = β Fare + β DaysUntillDeparture + β Weekday   
